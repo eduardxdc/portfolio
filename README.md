@@ -1,2 +1,2 @@
 # portfolio
-my portfolio repository
+<img src='./src/img/logoGitHub.jpg'>
