@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'ClashDisplay-Variable';
+    src: url('../fonts/ClashDisplay-Variable.ttf') format('truetype');
+}
+
+:root {
+    --primary-color: #1e1e1e;
+    --primary-hover: blue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ClashDisplay-Variable', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > div > img {
+    margin: 10px 100px;
+    width: 70px;
+    height: 70px;
+}
+
+nav > div > ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10px 100px;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary-hover);
+}
+
+header {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+header > div > p {
+    color: var(--primary-color);
+
+}
+
+.sumary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
