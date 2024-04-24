@@ -56,11 +56,11 @@ header {
 
 h1 {
     font-size: 6rem;
+    cursor: 
 }
 
 header > div > p {
     color: var(--primary-color);
-
 }
 
 .sumary {
