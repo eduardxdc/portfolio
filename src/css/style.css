@@ -25,10 +25,10 @@ nav {
     justify-content: space-between;
 }
 
-nav > div > img {
-    margin: 10px 100px;
-    width: 70px;
-    height: 70px;
+body > nav > div > h1 {
+    font-size: 3rem;
+    margin: 15px 100px;
+    cursor: default;
 }
 
 nav > div > ul {
@@ -39,27 +39,42 @@ nav > div > ul {
 }
 
 a {
+    font-size: 1.2rem;
     color: var(--primary-color);
     text-decoration: none;
+    transition: 0.1s ease;
 }
 
 a:hover {
     color: var(--primary-hover);
+    transition-delay: 0.1s;
 }
 
 header {
-    height: max-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 70vh;
 }
 
-h1 {
+div > header > div > div > h1 {
     font-size: 6rem;
+    cursor: default;
 }
 
-header > div > p {
+span {
+    transition: 0.1s ease;
+}
+
+span:hover {
+    color: var(--primary-hover);
+    transition-delay: 0.1s;
+}
+
+body > div > header > div > div > p {
+    font-size: 1.2rem;
     color: var(--primary-color);
+    cursor: default;
 }
 
 .sumary {
